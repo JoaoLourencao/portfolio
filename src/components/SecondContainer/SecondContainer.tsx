@@ -3,6 +3,7 @@ import { Col, Row } from "antd";
 import { CustomCard } from "../CustomCard";
 
 export function SecondContainer() {
+  console.log('teste')
   return (
     <div className='w-screen mx-auto py-12 md:py-20 justify-center bg-deepPurple'>
       <Row className="justify-center" gutter={[0, 40]}>
