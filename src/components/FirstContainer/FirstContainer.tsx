@@ -1,6 +1,6 @@
 import { SendOutlined } from "@ant-design/icons";
 import { Button, Col, Row } from "antd";
-import Profile from '../../assets/img/profile.jpg';
+import Profile from '../../assets/img/profile2.jpg';
 
 export function FirstContainer() {
   return (
