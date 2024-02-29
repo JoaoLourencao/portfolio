@@ -23,6 +23,10 @@ body {
   min-height: 100vh;
 }
 
+p{
+  color: #f9f9f9;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -64,4 +68,19 @@ body {
   -webkit-box-shadow: 5px 4px 10px 4px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 4px 10px 4px rgba(0,0,0,0.75);
   box-shadow: 5px 4px 10px 4px rgba(0,0,0,0.75);
+}
+
+.carousel-dots{
+  /* button:before {
+    font-size: 10px !important;
+    color: #50FA7B !important;
+  } */
+  li.slick-active button:before {
+    font-size: 12px !important;
+    color: #50FA7B !important;
+  }
+  li button:before {
+    opacity: .25;
+    color: #50FA7B !important;
+  }
 }

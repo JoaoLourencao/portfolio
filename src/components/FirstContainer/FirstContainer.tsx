@@ -6,14 +6,14 @@ export function FirstContainer() {
   return (
     <div className='mx-auto py-12 md:py-20'>
       <Row className="items-center">
-        <Col xs={{ span: 20, offset: 2 }} sm={{ span: 20, offset: 2 }} md={{ span: 9, offset: 1 }} xl={{ span: 6, offset: 3 }}>
+        <Col xs={{ span: 18, offset: 3 }} sm={{ span: 20, offset: 2 }} md={{ span: 9, offset: 1 }} xl={{ span: 6, offset: 3 }}>
           <div className='flex justify-center md:justify-end mb-10 md:mb-0'>
             <div className="bg-comment rounded-[75px] p-1 profile-circle">
               <img src={Profile} alt="Profile Picture" width={320} height={280} className='rounded-[70px]' />
             </div>
           </div>
         </Col>
-        <Col xs={{ span: 20, offset: 2 }} sm={{ span: 20, offset: 2 }} md={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 1 }}>
+        <Col xs={{ span: 18, offset: 3 }} sm={{ span: 20, offset: 2 }} md={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 1 }}>
           <div className='text-center md:text-left flex flex-col justify-between gap-4'>
             <p className='text-3xl font-bold text-purple'>Prazer, sou o João</p>
             <p className='text-4xl font-bold italic'>Desenvolvedor FullStack</p>

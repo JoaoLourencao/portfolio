@@ -16,12 +16,14 @@ export default {
       error: '#e60536',
       success: '#006940',
       warning: '#faad14',
-      white: '#F8F8F2',
+      white: '#FFF',
       pink: '#FF79C6',
       yellow: '#E7DE79',
       purple: '#988BC7',
       comment: '#483C67',
-      deepPurple: '#191622'
+      deepPurple: '#191622',
+      off: '#f9f9f9',
+      black: '#000',
     },
     screens: {
       'sm': '640px',
